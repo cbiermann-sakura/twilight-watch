@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twilight Watch — jetzt spielen oder warten?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --night:#0b0a16;
+    --dusk:#1a1330;
+    --violet:#4a2f6b;
+    --ember:#e0a244;      /* Tageslicht / jetzt spielen */
+    --spectral:#8fd0c8;   /* Emergenz / warten */
+    --bone:#e9e3d6;
+    --mist:#9a93ad;
+    --line:rgba(233,227,214,.14);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:
+      radial-gradient(1200px 600px at 50% -10%, #241a3d 0%, transparent 60%),
+      var(--night);
+    color:var(--bone);
+    font-family:"Inter",system-ui,sans-serif;
+    line-height:1.6;
+    min-height:100vh;
+    padding:clamp(20px,5vw,64px) clamp(18px,5vw,32px) 64px;
+  }
+  .wrap{max-width:760px;margin:0 auto}
+
+  .eyebrow{
+    font-family:"Space Mono",monospace;
+    font-size:12px;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--mist);display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  }
+  .eyebrow .dot{width:5px;height:5px;border-radius:50%;background:var(--ember)}
+
+  h1{
+    font-family:"Marcellus",serif;
+    font-weight:400;
+    font-size:clamp(30px,7vw,52px);
+    line-height:1.05;
+    margin:14px 0 6px;
+    letter-spacing:.5px;
+  }
+  .sub{color:var(--mist);max-width:52ch;font-size:15px}
+
+  /* ---------- Signature: Horizont ---------- */
+  .horizon-block{margin:40px 0 8px}
+  .horizon{
+    position:relative;height:118px;border-radius:14px;overflow:hidden;
+    background:linear-gradient(90deg,
+      #f0b45a 0%, #c9743e 22%, #6b3f7a 52%, #2a1c4d 78%, #0e0a1e 100%);
+    box-shadow:inset 0 0 60px rgba(0,0,0,.45), 0 20px 50px -30px rgba(0,0,0,.9);
+  }
+  .horizon::after{ /* Dunstschleier unten */
+    content:"";position:absolute;inset:auto 0 0 0;height:46%;
+    background:linear-gradient(180deg,transparent,rgba(11,10,22,.55));
+  }
+  .ticks{position:absolute;inset:0;pointer-events:none}
+  .tick{position:absolute;top:0;bottom:0;width:1px;background:rgba(11,10,22,.35)}
+  .tick span{
+    position:absolute;bottom:6px;left:6px;
+    font-family:"Space Mono",monospace;font-size:10px;letter-spacing:.1em;
+    color:rgba(11,10,22,.7);white-space:nowrap;
+  }
+  .marker{
+    position:absolute;top:0;bottom:0;width:2px;left:0;
+    background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.15));
+    transform:translateX(-1px);
+    box-shadow:0 0 14px rgba(255,255,255,.5);
+  }
+  .disc{
+    position:absolute;top:28px;left:0;width:30px;height:30px;border-radius:50%;
+    transform:translateX(-50%);
+    box-shadow:0 0 26px 6px rgba(255,220,150,.35);
+  }
+  .horizon-scale{
+    display:flex;justify-content:space-between;
+    font-family:"Space Mono",monospace;font-size:11px;color:var(--mist);
+    margin-top:10px;letter-spacing:.08em;
+  }
+
+  /* ---------- Verdikt ---------- */
+  .verdict{margin:30px 0 6px;display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+  .verdict .word{
+    font-family:"Marcellus",serif;font-size:clamp(34px,9vw,64px);line-height:1;
+  }
+  .verdict .idx{
+    font-family:"Space Mono",monospace;font-weight:700;font-size:15px;
+    padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--bone);
+  }
+  .reco{font-size:18px;color:var(--bone);margin-top:2px}
+  .play-hint{color:var(--mist);font-size:14px;margin-top:6px;font-family:"Space Mono",monospace}
+
+  .reasoning{
+    margin:26px 0 0;padding:20px 22px;border:1px solid var(--line);border-radius:14px;
+    background:rgba(255,255,255,.02);font-size:15.5px;color:#d9d3c6;
+  }
+  .reasoning h2{
+    font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.24em;
+    text-transform:uppercase;color:var(--mist);font-weight:700;margin-bottom:10px;
+  }
+
+  /* ---------- Signale ---------- */
+  .signals{margin-top:40px}
+  .signals > h2{
+    font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.24em;
+    text-transform:uppercase;color:var(--mist);font-weight:700;margin-bottom:16px;
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .sig{
+    display:block;text-decoration:none;color:inherit;
+    padding:18px 0;border-top:1px solid var(--line);
+    transition:background .2s;
+  }
+  .sig:hover{background:rgba(255,255,255,.02)}
+  .sig-top{display:flex;gap:12px;align-items:baseline;justify-content:space-between}
+  .sig-title{font-size:16px;color:var(--bone);font-weight:500}
+  .sig .contrib{
+    font-family:"Space Mono",monospace;font-size:13px;white-space:nowrap;
+  }
+  .contrib.pos{color:var(--spectral)}
+  .contrib.neg{color:#e08a8a}
+  .sig-meta{
+    font-family:"Space Mono",monospace;font-size:12px;color:var(--mist);
+    margin-top:7px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+  }
+  .chip{border:1px solid var(--line);border-radius:6px;padding:1px 7px}
+  .sig-note{font-size:14px;color:#c3bdb0;margin-top:9px}
+  .sig-link{
+    font-family:"Space Mono",monospace;font-size:12px;color:var(--ember);
+    margin-top:9px;display:inline-block;
+  }
+  .sig:hover .sig-link{text-decoration:underline}
+
+  footer{
+    margin-top:48px;padding-top:22px;border-top:1px solid var(--line);
+    color:var(--mist);font-size:13px;
+  }
+  footer p{margin-bottom:8px}
+  footer .stamp{font-family:"Space Mono",monospace}
+  .disclaimer{max-width:62ch}
+  a.inline{color:var(--ember);text-decoration:none}
+  a.inline:hover{text-decoration:underline}
+
+  @media (prefers-reduced-motion: no-preference){
+    .marker,.disc{transition:left 1.1s cubic-bezier(.16,1,.3,1)}
+    .fade{opacity:0;transform:translateY(8px);animation:rise .7s ease forwards}
+    .fade.d1{animation-delay:.05s}.fade.d2{animation-delay:.15s}.fade.d3{animation-delay:.28s}
+    @keyframes rise{to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow fade d1">
+    <span>Twilight&nbsp;Watch</span><span class="dot"></span>
+    <span id="stamp">tägliche Lesung</span>
+  </div>
+  <h1 class="fade d1">Jetzt spielen<br>oder auf die Neuauflage warten?</h1>
+  <p class="sub fade d1">Ein täglicher Blick auf Leaks, Gerüchte und Ankündigungen rund um ein
+  Twilight-Princess-Remake — verdichtet zu einem Wert zwischen „Licht ist jetzt“ und „etwas kommt aus dem Dunkel“.</p>
+
+  <div class="horizon-block fade d2">
+    <div class="horizon">
+      <div class="ticks">
+        <div class="tick" id="tickPlay"><span>30</span></div>
+        <div class="tick" id="tickWait"><span>60</span></div>
+      </div>
+      <div class="marker" id="marker"></div>
+      <div class="disc" id="disc"></div>
+    </div>
+    <div class="horizon-scale">
+      <span>0 · spiel jetzt, Tageslicht</span>
+      <span>etwas kommt · 100</span>
+    </div>
+  </div>
+
+  <div class="verdict fade d2">
+    <span class="word" id="verdictWord">…</span>
+    <span class="idx" id="idxBadge">Index —</span>
+  </div>
+  <p class="reco fade d2" id="reco"></p>
+  <p class="play-hint fade d2" id="playHint"></p>
+
+  <div class="reasoning fade d3">
+    <h2>Was heute zählt</h2>
+    <p id="reasoning"></p>
+  </div>
+
+  <section class="signals fade d3">
+    <h2><span>Signale &amp; Quellen</span> <span id="sigCount"></span></h2>
+    <div id="sigList"></div>
+  </section>
+
+  <footer>
+    <p class="stamp" id="footStamp"></p>
+    <p class="disclaimer">Kein Orakel. Der Index misst, wie viel <em>glaubwürdiges Signal</em> es
+    gerade gibt — nicht, ob ein Leak wahr ist. Gerüchte verlieren mit der Zeit an Gewicht,
+    Quellen werden nach Verlässlichkeit gewichtet. Belege selbst prüfen: alle Quellen sind oben verlinkt.</p>
+  </footer>
+</div>
+
+<script>
+const SEED = {"updated_at": "2026-07-13T09:00:00Z", "index": 31, "verdict": "grey", "headline": "Grauzone", "recommendation": "Kannst spielen — aber behalt's im Auge.", "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).", "reasoning": "Ein glaubwürdiger Leaker spricht seit Anfang Juli von „starken Gerüchten“ über eine Switch-2-Fassung, und Nintendo ist mit der OoT-Remake ohnehin in Remake-Laune. Aber: ein zweiter etablierter Insider konnte es nicht bestätigen, es gibt kein Listing, keine Ratings-Board-Einträge und keinen Direct-Termin. Signal ja — harte Belege nein.", "thresholds": {"play": 30, "wait": 60}, "signals": [{"title": "Nash Weedle: überarbeitete Twilight Princess für Switch 2 unterwegs", "source": "Nash Weedle (Partida Zero Podcast)", "source_key": "nash weedle", "signal_type": "insider_claim", "credibility": 0.7, "date": "2026-07-07", "age_days": 6, "contribution": 17.85, "note": "„Starke Gerüchte“ – Weedle lag zuletzt bei Zelda-Leaks richtig, hat aber generell eine durchwachsene Bilanz.", "url": "https://mynintendonews.com/2026/06/29/nash-weedle-claims-a-revised-zelda-twilight-princess-is-coming-to-switch-2/"}, {"title": "Nintendo in Remake-Laune: OoT-Remake noch dieses Jahr", "source": "Mehrere Outlets", "source_key": "context", "signal_type": "context", "credibility": 1.0, "date": "2026-04-15", "age_days": 89, "contribution": 7.2, "note": "Bestätigte OoT-Remake macht eine weitere 3D-Zelda-Neuauflage plausibler.", "url": "https://wccftech.com/zelda-ocarina-of-time-remake-beginning-zelda-twilight-princess-nintendo-switch-2/"}, {"title": "Medienwelle: mehrere Outlets greifen das Gerücht auf", "source": "ComicBook, ScreenRant, CBR u.a.", "source_key": "attention", "signal_type": "attention", "credibility": 0.6, "date": "2026-07-08", "age_days": 5, "contribution": 6.12, "note": "Berichterstattung verstärkt das Signal, fügt aber keine neue Primärquelle hinzu.", "url": "https://comicbook.com/gaming/news/the-legend-of-zelda-twilight-princess-wind-waker-nintendo-switch-2-remasters/"}, {"title": "20-jähriges Jubiläum 2026 als möglicher Anlass", "source": "Redaktioneller Kontext", "source_key": "context", "signal_type": "context", "credibility": 1.0, "date": "2026-06-01", "age_days": 42, "contribution": 3.8, "note": "Jubiläen sind bei Nintendo gelegentlich Auslöser für Re-Releases.", "url": "https://gamerant.com/nintendo-switch-2-zelda-games-twilight-princess-wind-waker-hd/"}, {"title": "Nate the Hate konnte das Gerücht nicht bestätigen", "source": "Nate the Hate", "source_key": "nate the hate", "signal_type": "negative_signal", "credibility": 0.8, "date": "2026-07-08", "age_days": 5, "contribution": -4.08, "note": "Ein zweiter, gut vernetzter Insider hat (noch) keine Bestätigung – dämpft das Signal.", "url": "https://wccftech.com/zelda-ocarina-of-time-remake-beginning-zelda-twilight-princess-nintendo-switch-2/"}]};
+
+const fmtDate = iso => new Date(iso).toLocaleDateString("de-DE",{day:"2-digit",month:"short",year:"numeric"});
+const stamp = iso => new Date(iso).toLocaleString("de-DE",{day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit"});
+
+// warm (ember) -> cool (spectral) Interpolation für die Scheibe
+function discColor(t){
+  const a=[224,162,68], b=[143,208,200];
+  const c=a.map((v,i)=>Math.round(v+(b[i]-v)*t));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+
+function render(d){
+  const t=d.thresholds||{play:30,wait:60};
+  const pct=Math.max(0,Math.min(100,d.index));
+
+  // Verdikt-Zustand
+  let word,cls;
+  if(d.verdict==="wait"){word="Warte.";}
+  else if(d.verdict==="grey"){word="Grauzone.";}
+  else {word="Spiel jetzt.";}
+
+  document.getElementById("verdictWord").textContent=word;
+  document.getElementById("idxBadge").textContent="Index "+Math.round(pct);
+  document.getElementById("reco").textContent=d.recommendation||"";
+  document.getElementById("playHint").textContent=d.play_suggestion||"";
+  document.getElementById("reasoning").textContent=d.reasoning||"";
+  document.getElementById("stamp").textContent="Lesung vom "+fmtDate(d.updated_at);
+  document.getElementById("footStamp").textContent="Zuletzt aktualisiert: "+stamp(d.updated_at);
+
+  // Schwellen-Ticks positionieren
+  document.getElementById("tickPlay").style.left=t.play+"%";
+  document.getElementById("tickWait").style.left=t.wait+"%";
+
+  // Marker + Scheibe (animiert von 0 -> pct)
+  const marker=document.getElementById("marker"), disc=document.getElementById("disc");
+  disc.style.background=discColor(pct/100);
+  const glow = pct>60 ? "0 0 30px 8px rgba(143,208,200,.45)" : "0 0 26px 6px rgba(255,220,150,.35)";
+  disc.style.boxShadow=glow;
+  requestAnimationFrame(()=>{ marker.style.left=pct+"%"; disc.style.left=pct+"%"; });
+
+  // Signale
+  const list=document.getElementById("sigList");
+  const sigs=(d.signals||[]).slice().sort((a,b)=>Math.abs(b.contribution)-Math.abs(a.contribution));
+  document.getElementById("sigCount").textContent=sigs.length+" Einträge";
+  list.innerHTML="";
+  const typeLabels={insider_claim:"Insider",official_announcement:"Offiziell",listing:"Listing",
+    datamine:"Datamine",trademark:"Trademark",direct_scheduled:"Direct",context:"Kontext",
+    attention:"Medien",negative_signal:"Gegenstimme",noise:"Rauschen"};
+  sigs.forEach(s=>{
+    const a=document.createElement("a");
+    a.className="sig"; a.href=s.url||"#"; a.target="_blank"; a.rel="noopener";
+    const c=s.contribution||0;
+    const cCls=c>=0?"pos":"neg";
+    const cTxt=(c>=0?"+":"")+c.toFixed(1);
+    a.innerHTML=`
+      <div class="sig-top">
+        <span class="sig-title">${esc(s.title)}</span>
+        <span class="contrib ${cCls}">${cTxt}</span>
+      </div>
+      <div class="sig-meta">
+        <span class="chip">${typeLabels[s.signal_type]||s.signal_type}</span>
+        <span>Vertrauen ${Math.round((s.credibility||0)*100)}%</span>
+        <span>·</span><span>${esc(s.source||"")}</span>
+        <span>·</span><span>${s.date?fmtDate(s.date):""}</span>
+      </div>
+      ${s.note?`<div class="sig-note">${esc(s.note)}</div>`:""}
+      <span class="sig-link">Quelle öffnen ↗</span>`;
+    list.appendChild(a);
+  });
+}
+function esc(x){return String(x).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
+
+fetch("./data.json",{cache:"no-store"})
+  .then(r=>{if(!r.ok)throw 0;return r.json();})
+  .then(render)
+  .catch(()=>render(SEED));
+</script>
+</body>
+</html>
