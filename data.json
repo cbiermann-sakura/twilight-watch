@@ -1,0 +1,72 @@
+{
+  "updated_at": "2026-07-13T09:00:00Z",
+  "index": 31,
+  "verdict": "grey",
+  "headline": "Grauzone",
+  "recommendation": "Kannst spielen \u2014 aber behalt's im Auge.",
+  "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).",
+  "reasoning": "Ein glaubw\u00fcrdiger Leaker spricht seit Anfang Juli von \u201estarken Ger\u00fcchten\u201c \u00fcber eine Switch-2-Fassung, und Nintendo ist mit der OoT-Remake ohnehin in Remake-Laune. Aber: ein zweiter etablierter Insider konnte es nicht best\u00e4tigen, es gibt kein Listing, keine Ratings-Board-Eintr\u00e4ge und keinen Direct-Termin. Signal ja \u2014 harte Belege nein.",
+  "thresholds": { "play": 30, "wait": 60 },
+  "signals": [
+    {
+      "title": "Nash Weedle: \u00fcberarbeitete Twilight Princess f\u00fcr Switch 2 unterwegs",
+      "source": "Nash Weedle (Partida Zero Podcast)",
+      "source_key": "nash weedle",
+      "signal_type": "insider_claim",
+      "credibility": 0.7,
+      "date": "2026-07-07",
+      "age_days": 6,
+      "contribution": 17.85,
+      "note": "\u201eStarke Ger\u00fcchte\u201c \u2013 Weedle lag zuletzt bei Zelda-Leaks richtig, hat aber generell eine durchwachsene Bilanz.",
+      "url": "https://mynintendonews.com/2026/06/29/nash-weedle-claims-a-revised-zelda-twilight-princess-is-coming-to-switch-2/"
+    },
+    {
+      "title": "Nintendo in Remake-Laune: OoT-Remake noch dieses Jahr",
+      "source": "Mehrere Outlets",
+      "source_key": "context",
+      "signal_type": "context",
+      "credibility": 1.0,
+      "date": "2026-04-15",
+      "age_days": 89,
+      "contribution": 7.2,
+      "note": "Best\u00e4tigte OoT-Remake macht eine weitere 3D-Zelda-Neuauflage plausibler.",
+      "url": "https://wccftech.com/zelda-ocarina-of-time-remake-beginning-zelda-twilight-princess-nintendo-switch-2/"
+    },
+    {
+      "title": "Medienwelle: mehrere Outlets greifen das Ger\u00fccht auf",
+      "source": "ComicBook, ScreenRant, CBR u.a.",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2026-07-08",
+      "age_days": 5,
+      "contribution": 6.12,
+      "note": "Berichterstattung verst\u00e4rkt das Signal, f\u00fcgt aber keine neue Prim\u00e4rquelle hinzu.",
+      "url": "https://comicbook.com/gaming/news/the-legend-of-zelda-twilight-princess-wind-waker-nintendo-switch-2-remasters/"
+    },
+    {
+      "title": "20-j\u00e4hriges Jubil\u00e4um 2026 als m\u00f6glicher Anlass",
+      "source": "Redaktioneller Kontext",
+      "source_key": "context",
+      "signal_type": "context",
+      "credibility": 1.0,
+      "date": "2026-06-01",
+      "age_days": 42,
+      "contribution": 3.8,
+      "note": "Jubil\u00e4en sind bei Nintendo gelegentlich Ausl\u00f6ser f\u00fcr Re-Releases.",
+      "url": "https://gamerant.com/nintendo-switch-2-zelda-games-twilight-princess-wind-waker-hd/"
+    },
+    {
+      "title": "Nate the Hate konnte das Ger\u00fccht nicht best\u00e4tigen",
+      "source": "Nate the Hate",
+      "source_key": "nate the hate",
+      "signal_type": "negative_signal",
+      "credibility": 0.8,
+      "date": "2026-07-08",
+      "age_days": 5,
+      "contribution": -4.08,
+      "note": "Ein zweiter, gut vernetzter Insider hat (noch) keine Best\u00e4tigung \u2013 d\u00e4mpft das Signal.",
+      "url": "https://wccftech.com/zelda-ocarina-of-time-remake-beginning-zelda-twilight-princess-nintendo-switch-2/"
+    }
+  ]
+}
