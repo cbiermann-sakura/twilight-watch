@@ -1,25 +1,21 @@
 #!/usr/bin/env python3
 """
-Twilight Watch – tägliche Analyse.
+Twilight Watch – tägliche Analyse (Option B: keyword-basiert, kein API-Key nötig).
 
 Ablauf:
-  1. RSS-Feeds nach Twilight-Princess-Remake-Signalen abfragen.
-  2. Claude klassifiziert jedes Item (Signaltyp, Quelle, Glaubwürdigkeit, relevant ja/nein).
-     -> Das LLM extrahiert/kategorisiert nur. Es erfindet nichts und vergibt keine Scores.
-  3. Der Hope-Index wird DETERMINISTISCH in Python berechnet (Gewicht × Vertrauen × Zeit-Decay).
-  4. Ergebnis wird als data.json geschrieben; das statische Frontend liest es.
+  1. RSS-Feeds nach Twilight-Princess-Signalen abfragen.
+  2. Jedes Item per Keyword-Regeln klassifizieren (Signaltyp, Quelle, Relevanz).
+  3. Hope-Index DETERMINISTISCH berechnen: Gewicht × Glaubwürdigkeit × Zeit-Decay.
+  4. data.json schreiben; das statische Frontend liest es.
 
-Benötigt die Umgebungsvariable ANTHROPIC_API_KEY (in GitHub als Secret hinterlegen).
+Läuft ohne externe API. Regeln verstehen keinen Kontext, nur Stichwörter –
+für diese eng umrissene Frage reicht das erstaunlich weit. Alles frei justierbar.
 """
 
-import os, json, math, datetime as dt, sys
+import json, math, datetime as dt, sys
 import feedparser
-from anthropic import Anthropic
 
-# --- Modell: bei Bedarf aktuellen Namen unter docs.claude.com prüfen ---
-MODEL = "claude-haiku-4-5-20251001"
-
-# --- Quellen (reine RSS/JSON-Feeds, kein Scraping) ---
+# --- Quellen (reine RSS-Feeds, kein Scraping) ---
 FEEDS = {
     "Google News": "https://news.google.com/rss/search?q=%22Twilight+Princess%22+(remaster+OR+remake+OR+Switch)&hl=de&gl=DE&ceid=DE:de",
     "Reddit GamingLeaks": "https://www.reddit.com/r/GamingLeaksAndRumours/search.rss?q=twilight+princess&restrict_sr=on&sort=new&t=month",
@@ -35,7 +31,7 @@ SIGNAL_WEIGHTS = {
     "insider_claim":          28,  # Leaker-Aussage
     "datamine":               25,  # Fund im Code / in Dateien
     "trademark":              20,  # Marken-/Patentanmeldung
-    "direct_scheduled":       12,  # Nintendo Direct in Aussicht
+    "direct_scheduled":       12,  # Nintendo Direct terminiert
     "attention":               8,  # reine Medienwelle ohne neue Primärquelle
     "context":                 6,  # Umfeld (Jubiläum, Release-Lücke, Trend)
     "negative_signal":       -10,  # glaubwürdiges Dementi / Nicht-Bestätigung
@@ -50,7 +46,82 @@ KNOWN_SOURCES = {  # Glaubwürdigkeit 0..1 nach Track Record
 }
 HALFLIFE_DAYS = 30.0
 THRESHOLDS = {"play": 30, "wait": 60}
-MAX_ITEMS = 40  # wie viele Feed-Items ans LLM gehen
+MAX_ITEMS = 40
+
+# --- Keyword-Regeln (Reihenfolge = Priorität, erste Übereinstimmung gewinnt) ---
+LEAKERS = ["nash weedle", "nate the hate", "jeff grubb", "attack the backlog"]
+
+SPECULATIVE = ["rumor", "rumour", "rumored", "rumoured", "leak", "leaked", "insider",
+               "reportedly", "allegedly", "could", "might", "may ", "claims", "hints"]
+
+NEGATIVE   = ["denies", "denied", "debunk", "not coming", "no plans", "false", "quashed",
+              "shot down", "disput", "unlikely", "won't", "not happening"]
+OFFICIAL   = ["officially announced", "confirms", "confirmed", "release date", "out now",
+              "now available", "shadow drop", "revealed", "announced for", "launches", "release trailer"]
+LISTING    = ["listing", "rated by", "esrb", "pegi", "retailer", "pre-order", "preorder", "amazon listing"]
+DATAMINE   = ["datamine", "datamined", "found in the code", "files reveal", "code reveals"]
+TRADEMARK  = ["trademark", "patent", "registered", "filing"]
+DIRECT_WHEN = ["scheduled", "announced", "date set", "confirmed", "incoming", "this week", "tomorrow", "happening"]
+INSIDER    = ["rumor", "rumour", "leak", "insider", "reportedly", "allegedly", "sources say", "claims"]
+CONTEXT    = ["anniversary", "20th", "20-year", "for years", "wishlist", "wish list", "hope", "fans want"]
+NEWVERSION = ["remaster", "remake", "port", "switch", "switch 2", "nso", " hd", "revised",
+              "new version", "coming to", "revive", "re-release", "rerelease"]
+
+NOTES = {
+    "official_announcement": "Klingt nach offizieller Bestätigung.",
+    "listing": "Eintrag bei Händler/Ratings-Board – oft ein starkes Vorzeichen.",
+    "insider_claim": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
+    "datamine": "Angeblicher Fund im Code/in Dateien.",
+    "trademark": "Marken-/Patent-Hinweis.",
+    "direct_scheduled": "Bezug auf einen terminierten Nintendo Direct.",
+    "attention": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+    "context": "Umfeld-Signal (Jubiläum, Wunschliste, Release-Lücke).",
+    "negative_signal": "Dementi bzw. Nicht-Bestätigung – dämpft das Bild.",
+    "noise": "",
+}
+
+
+def has(text, words):
+    return any(w in text for w in words)
+
+
+def detect_source(text):
+    for name in LEAKERS:
+        if name in text:
+            return name
+    return "unknown"
+
+
+def classify_one(title):
+    t = title.lower()
+
+    # Relevanz: muss es um eine mögliche NEUE Fassung gehen
+    if not has(t, NEWVERSION) and not has(t, DATAMINE + TRADEMARK + LISTING):
+        return {"relevant": False, "signal_type": "noise", "source_key": "unknown", "note": ""}
+
+    speculative = has(t, SPECULATIVE)
+
+    # Priorität von stark nach schwach
+    if has(t, NEGATIVE):
+        stype, skey = "negative_signal", detect_source(t)
+    elif has(t, OFFICIAL) and not speculative:
+        stype, skey = "official_announcement", "official"
+    elif has(t, LISTING):
+        stype, skey = "listing", "official"
+    elif has(t, DATAMINE):
+        stype, skey = "datamine", detect_source(t)
+    elif has(t, TRADEMARK):
+        stype, skey = "trademark", "official"
+    elif "nintendo direct" in t and has(t, DIRECT_WHEN):
+        stype, skey = "direct_scheduled", "official"
+    elif has(t, INSIDER) or detect_source(t) != "unknown":
+        stype, skey = "insider_claim", detect_source(t)
+    elif has(t, CONTEXT):
+        stype, skey = "context", "context"
+    else:
+        stype, skey = "attention", "attention"
+
+    return {"relevant": True, "signal_type": stype, "source_key": skey, "note": NOTES[stype]}
 
 
 def fetch_items():
@@ -66,45 +137,13 @@ def fetch_items():
             link = e.get("link") or ""
             if not title or link in seen:
                 continue
-            seen.add(link)
-            # grober Vorfilter: muss Twilight Princess betreffen
             low = title.lower()
             if "twilight princess" not in low and "tp hd" not in low:
                 continue
-            published = e.get("published", "") or e.get("updated", "")
-            items.append({"title": title, "url": link, "source": name, "published": published})
+            seen.add(link)
+            items.append({"title": title, "url": link, "source": name,
+                          "published": e.get("published", "") or e.get("updated", "")})
     return items[:MAX_ITEMS]
-
-
-CLASSIFY_PROMPT = """Du bist ein Analyst für Nintendo-Leaks. Bewerte die folgenden News-/Forum-Items
-ausschließlich danach, ob sie auf eine NEUE Fassung von "The Legend of Zelda: Twilight Princess"
-für moderne Nintendo-Hardware (Switch / Switch 2) hindeuten – Remake, Remaster, Port oder NSO-Release.
-
-Für JEDES Item gib ein Objekt zurück mit:
-- "i": Index des Items (Zahl, wie unten)
-- "relevant": true nur, wenn es wirklich um eine mögliche neue TP-Fassung geht (sonst false)
-- "signal_type": einer von [official_announcement, listing, insider_claim, datamine, trademark,
-  direct_scheduled, attention, context, negative_signal, noise]
-- "source_key": kleingeschriebener Name der GENANNTEN Quelle/des Leakers, falls erkennbar
-  (z.B. "nash weedle", "nate the hate", "jeff grubb", "official"), sonst "unknown"
-- "note": ein knapper deutscher Satz, was das Item aussagt
-
-Erfinde nichts. Bewerte nur, was im Titel steht. Antworte NUR mit JSON:
-{"items":[...], "summary_de":"2 Sätze Gesamteinschätzung auf Deutsch"}
-
-ITEMS:
-"""
-
-
-def classify(items, client):
-    listing = "\n".join(f'{idx}. [{it["source"]}] {it["title"]}' for idx, it in enumerate(items))
-    msg = client.messages.create(
-        model=MODEL, max_tokens=2000,
-        messages=[{"role": "user", "content": CLASSIFY_PROMPT + listing}],
-    )
-    text = "".join(b.text for b in msg.content if b.type == "text").strip()
-    text = text.replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
 
 
 def days_old(published):
@@ -121,16 +160,37 @@ def days_old(published):
     return 3.0
 
 
-def build(items, cls):
+def make_reasoning(index, signals):
+    if not signals:
+        return "Heute keine nennenswerten neuen Signale – die alte Fassung ist die sichere Wahl."
+    top = signals[0]
+    labels = {"official_announcement": "offizielle Ankündigung", "listing": "Listing",
+              "insider_claim": "Leaker-Gerücht", "datamine": "Datamine", "trademark": "Trademark",
+              "direct_scheduled": "Direct-Termin", "attention": "Medienwelle", "context": "Umfeld-Signal",
+              "negative_signal": "Gegenstimme"}
+    has_neg = any(s["signal_type"] == "negative_signal" for s in signals)
+    parts = [f"Stärkstes Signal heute: {labels.get(top['signal_type'], top['signal_type'])} "
+             f"({top['source']}). Insgesamt {len(signals)} relevante Einträge."]
+    if has_neg:
+        parts.append("Mindestens ein Dementi dämpft das Bild.")
+    if index >= THRESHOLDS["wait"]:
+        parts.append("Genug, um noch zu warten.")
+    elif index >= THRESHOLDS["play"]:
+        parts.append("Signal ja – harte Belege nein.")
+    else:
+        parts.append("Zu dünn für belastbare Hoffnung.")
+    return " ".join(parts)
+
+
+def build(items):
     signals, total = [], 0.0
-    by_i = {c["i"]: c for c in cls.get("items", []) if isinstance(c, dict) and "i" in c}
-    for i, it in enumerate(items):
-        c = by_i.get(i)
-        if not c or not c.get("relevant"):
+    for it in items:
+        c = classify_one(it["title"])
+        if not c["relevant"]:
             continue
-        stype = c.get("signal_type", "noise")
+        stype = c["signal_type"]
         base = SIGNAL_WEIGHTS.get(stype, 0)
-        skey = (c.get("source_key") or "unknown").lower()
+        skey = c["source_key"]
         cred = KNOWN_SOURCES.get(skey, KNOWN_SOURCES["unknown"])
         age = days_old(it["published"])
         decay = math.exp(-age / HALFLIFE_DAYS)
@@ -138,17 +198,18 @@ def build(items, cls):
         total += contrib
         signals.append({
             "title": it["title"],
-            "source": it["source"] + (f" / {skey}" if skey not in ("unknown", "context", "attention") else ""),
+            "source": it["source"] + (f" / {skey}" if skey in LEAKERS else ""),
             "source_key": skey,
             "signal_type": stype,
             "credibility": round(cred, 2),
             "date": (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=age)).strftime("%Y-%m-%d"),
             "age_days": round(age),
             "contribution": round(contrib, 2),
-            "note": c.get("note", ""),
+            "note": c["note"],
             "url": it["url"],
         })
 
+    signals.sort(key=lambda s: abs(s["contribution"]), reverse=True)
     index = max(0, min(100, round(total)))
     if index >= THRESHOLDS["wait"]:
         verdict, head, reco = "wait", "Warte.", "Es braut sich etwas zusammen – ich würde noch warten."
@@ -164,28 +225,23 @@ def build(items, cls):
         "headline": head,
         "recommendation": reco,
         "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).",
-        "reasoning": cls.get("summary_de", "") or "Heute keine nennenswerten neuen Signale.",
+        "reasoning": make_reasoning(index, signals),
         "thresholds": THRESHOLDS,
-        "signals": sorted(signals, key=lambda s: abs(s["contribution"]), reverse=True),
+        "signals": signals,
     }
 
 
 def main():
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        print("ANTHROPIC_API_KEY fehlt – breche ab, behalte altes data.json.", file=sys.stderr)
-        sys.exit(0)  # kein harter Fehler: alter Stand bleibt bestehen
     items = fetch_items()
-    print(f"{len(items)} relevante Feed-Items gefunden.")
+    print(f"{len(items)} Twilight-Princess-Items aus den Feeds.")
     if not items:
         print("Keine Items – data.json unverändert.")
         return
-    client = Anthropic(api_key=key)
-    cls = classify(items, client)
-    data = build(items, cls)
+    data = build(items)
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"data.json geschrieben. Index={data['index']} Verdikt={data['verdict']}")
+    print(f"data.json geschrieben. Index={data['index']} Verdikt={data['verdict']} "
+          f"({len(data['signals'])} Signale).")
 
 
 if __name__ == "__main__":
