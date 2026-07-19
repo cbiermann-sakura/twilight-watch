@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-18T12:02:48Z",
-  "index": 16,
+  "updated_at": "2026-07-19T12:06:51Z",
+  "index": 15,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
@@ -18,8 +18,8 @@
       "signal_type": "insider_claim",
       "credibility": 0.65,
       "date": "2026-06-29",
-      "age_days": 19,
-      "contribution": 9.78,
+      "age_days": 20,
+      "contribution": 9.46,
       "note": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uj555y/a_new_version_of_the_legend_of_zelda_twilight/"
     },
@@ -30,8 +30,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-03",
-      "age_days": 15,
-      "contribution": 2.89,
+      "age_days": 16,
+      "contribution": 2.8,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
     },
@@ -42,8 +42,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-06-29",
-      "age_days": 19,
-      "contribution": 2.59,
+      "age_days": 20,
+      "contribution": 2.5,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
     },
@@ -54,8 +54,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-05-11",
-      "age_days": 68,
-      "contribution": 0.49,
+      "age_days": 69,
+      "contribution": 0.48,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMFBkbnlURGVjdUYtUFhoLVRMa0NoaVdzYlZVZGJaeEZzR3kwblpIUGpQMVlKTHIwc3dDMjNMTENFbDBHV3pmSDAxMHh5VDNIWnM3Wl9ZVkpTdmN3Mk1jT3hmVzd5NElPM0ZxcU1nMzE2bGh5ZUszZ2pzZ0pXUW5GUlhWNWdXNGtRdmJYYUVleHNMQzItQ0M4aFFVZThGNXJCd0MyZ2p0NUtLNkwyNHI4Q0NYbGtFM2c0LWxhcUdYNDBQTzNXOHBmVGFOeWppS0RWSzN4R3dyMERtb2tTX3puN204ZFVMMjladER3ZXdmNnBvQ2kydktLQWtoeG0xZw?oc=5"
     },
@@ -66,8 +66,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-04-07",
-      "age_days": 102,
-      "contribution": 0.16,
+      "age_days": 103,
+      "contribution": 0.15,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTkJvbnFhWk9wc3huVV9SQmNPUU5jQ0d1WFJmaEJRcUFWVFB6eTJ2aHlRQnJHdElqU3N0MUhHNDV6SWR2V3JwZzBJRHc3S01pbjBSSWVGaEt2LUpLV3ppN3Z4NDBQRE5samEzOFFLR0dTWWlUZ1BPOWtfa0hBUWs0N04wTkxlYlJjN1hiWnRGZmcwNlRqRzZWeUZVcXpOZWVFbVJvY0p2ZWR3azIwU1AwTWRaejBPd1lub3liS1hGV19BU1JRaHFnaWZ0MnFONk1Jdm9JZVBzeUE4Q2FKY1hzcQ?oc=5"
     },
@@ -78,7 +78,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-02-03",
-      "age_days": 165,
+      "age_days": 166,
       "contribution": 0.02,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
@@ -90,7 +90,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-01-05",
-      "age_days": 194,
+      "age_days": 195,
       "contribution": 0.01,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
@@ -102,19 +102,19 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-19",
-      "age_days": 333,
+      "age_days": 334,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNCbTNTaXNSdmJpV3V0U0xkVlV6WnJIVTBOejA3SGNoWGNncVZhcUU1R0N5RTlxR05yNGlNOGtRN1VXdldHUlpIcEdDQXc3SHNJOTVCdVdDNlBZem0zNW9xRFVCV3ctSHJnbk1BTzl1OVFhVkxKZmhZaUtRU2Z4WmY0c3pQb1V4bHc5Z3ljUENNRVFGZTRFc00wSzlUbzlnQmc?oc=5"
     },
     {
-      "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - Nintendo",
+      "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - nintendo.com",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2024-04-21",
-      "age_days": 818,
+      "age_days": 819,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV01fZllWdjZ2dGdjb01PazYyYklvcWlfRndha1pPUDZEaTlsdXJqN25lal9zTWxLNUJoeTlYR2hRc0VtdENvTEhTcV9YOXBRR2ZvV3N5R3dpSmFVUXI4X3FBNlVtNXgxWW5kdUFqU01JVDF6eGlqUjhvRnZfR1FoM2lTMnJ4Z2NOM1BVVVlPclFSdjlEUDZJcjIzc0hWb0pmX1hYVEJUTkNYZFEzSHdRUE8zeXBsM3c1OVFBXzFLRTgzWnBJY19EZnFaYlZuNmJLUTRr?oc=5"
@@ -126,7 +126,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-08",
-      "age_days": 344,
+      "age_days": 345,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LUF9xVldMVEhnNjZzLTRWMTluMnBtSnFyZW80Rlp1S2k1VmV3RVcydlpyTTBaUzMzOXIwbzRZdmxrYXBpNVdyTkVvWFZYNkpFVG5EVVhMd3J3dTNYMXFsUmlCZEJBNGJzOWNrZg?oc=5"
@@ -138,7 +138,7 @@
       "signal_type": "insider_claim",
       "credibility": 0.3,
       "date": "2022-09-01",
-      "age_days": 1416,
+      "age_days": 1417,
       "contribution": 0.0,
       "note": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZWR2RERQUkJrLXpVMkRpZEx0Wlg4SEtxZUxYZjZGcjM3aXBRTnk1RzJnSjRtMGt2SW1nVHpaNmtyd09qT3BubGtlQlR6VC1JdVNtMTBweUFLbFhGcUFWUmRGa3o1bHFTb0RnaE9BYXRzWllNNXBNbG5RNG1wTXMzSG1tb1dxVDlMY1ZoYS1uODJEd3FONTNfV3pZOVdZdHJsVkhnRThtdGdjaGw1YnQ0UGZKQmo?oc=5"
@@ -150,22 +150,22 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2022-05-04",
-      "age_days": 1536,
+      "age_days": 1537,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRl9FUEpHSkN0bUxOdmNwUmRSWFhYdVQ0RWdxQVpkekEzUFRQTFpFUHZnVVU3bWgyM0xRLVl3MUJpSkVodlhuMUlGZ0xHZDN3X2lLcmpWajk4NmM4VndhVmJsXzB1TjdrbzRabDV1MWN2MDAwNGQ3cS1fSW5NbFc5NHZ3Y0NZUXBYaXFWOFRyU1pkTWlHXy05RFlKNEZTZG1mRmZnN0NoOA?oc=5"
     },
     {
-      "title": "Gerücht: Zelda Twilight Princess und Wind Waker erscheinen 2022 als Switch-Bundle - GamePro",
+      "title": "Zelda: Wind Waker & Twilight Princess für Switch wieder im Gespräch - DailyGame.at",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
-      "date": "2022-04-29",
-      "age_days": 1541,
+      "date": "2022-05-03",
+      "age_days": 1538,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUo2VTlZX0I0TGNZanJxVlMzYWFJM2VxYm4yaW00LXViazRJdHAtTlk2bzFMcWlLMWpiNXphOFcyanVtVVVzRE1NUUpUdEl5eTFIMkJZbEFYTFBPYzlIUDg0a0pYejh5emJadXRZRXhEX3RMRS1SQWhnem1UUHg2TTIxSEM5ZjAxYkJXSlRuWl9CWkNTbk16R2pjWFc3b1BLLTh5UWhHVnVfbnJ1UGdN?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGcG5lTzhpTVJWUFd4UEZNY3lFYTR4OWJCaFg3UUxMaDljMmk0bGxac2F0eDdnR3p6eEczNENNV2FmWmt2Vy1NTTJIbFNVTW44dmp2bXlBbWl3b2VtTjVpTVdPTEFvQ0xJWUc0QUFNSUhQN2VFQ3Q4?oc=5"
     }
   ]
 }
