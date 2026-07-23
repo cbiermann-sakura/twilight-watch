@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-22T15:22:10Z",
-  "index": 14,
+  "updated_at": "2026-07-23T16:01:45Z",
+  "index": 13,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
@@ -18,8 +18,8 @@
       "signal_type": "insider_claim",
       "credibility": 0.65,
       "date": "2026-06-29",
-      "age_days": 23,
-      "contribution": 8.52,
+      "age_days": 24,
+      "contribution": 8.24,
       "note": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uj555y/a_new_version_of_the_legend_of_zelda_twilight/"
     },
@@ -30,8 +30,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-03",
-      "age_days": 19,
-      "contribution": 2.52,
+      "age_days": 20,
+      "contribution": 2.43,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
     },
@@ -41,9 +41,9 @@
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "age_days": 23,
-      "contribution": 2.25,
+      "contribution": 2.2,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
     },
@@ -54,8 +54,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-05-11",
-      "age_days": 72,
-      "contribution": 0.43,
+      "age_days": 73,
+      "contribution": 0.42,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMFBkbnlURGVjdUYtUFhoLVRMa0NoaVdzYlZVZGJaeEZzR3kwblpIUGpQMVlKTHIwc3dDMjNMTENFbDBHV3pmSDAxMHh5VDNIWnM3Wl9ZVkpTdmN3Mk1jT3hmVzd5NElPM0ZxcU1nMzE2bGh5ZUszZ2pzZ0pXUW5GUlhWNWdXNGtRdmJYYUVleHNMQzItQ0M4aFFVZThGNXJCd0MyZ2p0NUtLNkwyNHI4Q0NYbGtFM2c0LWxhcUdYNDBQTzNXOHBmVGFOeWppS0RWSzN4R3dyMERtb2tTX3puN204ZFVMMjladER3ZXdmNnBvQ2kydktLQWtoeG0xZw?oc=5"
     },
@@ -66,7 +66,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-02-03",
-      "age_days": 169,
+      "age_days": 170,
       "contribution": 0.02,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
@@ -78,7 +78,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-01-05",
-      "age_days": 198,
+      "age_days": 199,
       "contribution": 0.01,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
@@ -90,7 +90,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-19",
-      "age_days": 337,
+      "age_days": 338,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNCbTNTaXNSdmJpV3V0U0xkVlV6WnJIVTBOejA3SGNoWGNncVZhcUU1R0N5RTlxR05yNGlNOGtRN1VXdldHUlpIcEdDQXc3SHNJOTVCdVdDNlBZem0zNW9xRFVCV3ctSHJnbk1BTzl1OVFhVkxKZmhZaUtRU2Z4WmY0c3pQb1V4bHc5Z3ljUENNRVFGZTRFc00wSzlUbzlnQmc?oc=5"
@@ -102,7 +102,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2024-04-21",
-      "age_days": 822,
+      "age_days": 823,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV01fZllWdjZ2dGdjb01PazYyYklvcWlfRndha1pPUDZEaTlsdXJqN25lal9zTWxLNUJoeTlYR2hRc0VtdENvTEhTcV9YOXBRR2ZvV3N5R3dpSmFVUXI4X3FBNlVtNXgxWW5kdUFqU01JVDF6eGlqUjhvRnZfR1FoM2lTMnJ4Z2NOM1BVVVlPclFSdjlEUDZJcjIzc0hWb0pmX1hYVEJUTkNYZFEzSHdRUE8zeXBsM3c1OVFBXzFLRTgzWnBJY19EZnFaYlZuNmJLUTRr?oc=5"
@@ -114,7 +114,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-08",
-      "age_days": 348,
+      "age_days": 349,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LUF9xVldMVEhnNjZzLTRWMTluMnBtSnFyZW80Rlp1S2k1VmV3RVcydlpyTTBaUzMzOXIwbzRZdmxrYXBpNVdyTkVvWFZYNkpFVG5EVVhMd3J3dTNYMXFsUmlCZEJBNGJzOWNrZg?oc=5"
@@ -126,7 +126,7 @@
       "signal_type": "insider_claim",
       "credibility": 0.3,
       "date": "2022-09-01",
-      "age_days": 1420,
+      "age_days": 1421,
       "contribution": 0.0,
       "note": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZWR2RERQUkJrLXpVMkRpZEx0Wlg4SEtxZUxYZjZGcjM3aXBRTnk1RzJnSjRtMGt2SW1nVHpaNmtyd09qT3BubGtlQlR6VC1JdVNtMTBweUFLbFhGcUFWUmRGa3o1bHFTb0RnaE9BYXRzWllNNXBNbG5RNG1wTXMzSG1tb1dxVDlMY1ZoYS1uODJEd3FONTNfV3pZOVdZdHJsVkhnRThtdGdjaGw1YnQ0UGZKQmo?oc=5"
@@ -138,7 +138,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2022-05-04",
-      "age_days": 1540,
+      "age_days": 1541,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRl9FUEpHSkN0bUxOdmNwUmRSWFhYdVQ0RWdxQVpkekEzUFRQTFpFUHZnVVU3bWgyM0xRLVl3MUJpSkVodlhuMUlGZ0xHZDN3X2lLcmpWajk4NmM4VndhVmJsXzB1TjdrbzRabDV1MWN2MDAwNGQ3cS1fSW5NbFc5NHZ3Y0NZUXBYaXFWOFRyU1pkTWlHXy05RFlKNEZTZG1mRmZnN0NoOA?oc=5"
@@ -150,7 +150,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2022-05-03",
-      "age_days": 1541,
+      "age_days": 1542,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGcG5lTzhpTVJWUFd4UEZNY3lFYTR4OWJCaFg3UUxMaDljMmk0bGxac2F0eDdnR3p6eEczNENNV2FmWmt2Vy1NTTJIbFNVTW44dmp2bXlBbWl3b2VtTjVpTVdPTEFvQ0xJWUc0QUFNSUhQN2VFQ3Q4?oc=5"
