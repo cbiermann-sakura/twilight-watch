@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-02T12:40:45Z",
+  "updated_at": "2026-08-04T11:19:04Z",
   "index": 5,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
   "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).",
-  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 10 relevante Einträge. Zu dünn für belastbare Hoffnung.",
+  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 9 relevante Einträge. Zu dünn für belastbare Hoffnung.",
   "thresholds": {
     "play": 30,
     "wait": 60
@@ -18,20 +18,20 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-03",
-      "age_days": 30,
-      "contribution": 1.75,
+      "age_days": 32,
+      "contribution": 1.64,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
     },
     {
-      "title": "Fan-Entwickler arbeitet an inoffiziellem 3DS-Port von Zelda: Twilight Princess - Nintendo Connect",
+      "title": "Fan-Entwickler arbeitet an inoffiziellem 3DS-Port von Zelda: Twilight Princess - nintendo-connect.de",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-02",
-      "age_days": 31,
-      "contribution": 1.69,
+      "age_days": 33,
+      "contribution": 1.59,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNlB5Nnh1LTNUemdhbEZDUGhzVW1oYzJnb3lzaW1OMlE4U1ZCWmdEaUVXclFHWV9sN1pZbHZOMXZWMmFoelFWSEV2eXE4TFBTODNENlpNN2Z4MFNKc3hDX3pnTE50X0ZFYTVVWjJmRzRxT2pYMHlTQ1ZZYlZFM081b1IzUlN0Z3VDVEktVTF2QkNvb05EYTVGTkZqa3NNRmd2MWZkME0yT0kxSy10N0RWWWZsbjVnRDFxTzhlSzZpalVnNjZWVkE3aXVLbzlJbzRX?oc=5"
     },
@@ -42,32 +42,32 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-06-30",
-      "age_days": 33,
-      "contribution": 1.59,
+      "age_days": 35,
+      "contribution": 1.49,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
     },
     {
-      "title": "The Legend of Zelda: Twilight Princess erhält nativen PC-Port mit zahlreichen Verbesserungen - Nintendo Connect",
+      "title": "The Legend of Zelda: Twilight Princess erhält nativen PC-Port mit zahlreichen Verbesserungen - nintendo-connect.de",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-05-11",
-      "age_days": 83,
-      "contribution": 0.3,
+      "age_days": 85,
+      "contribution": 0.28,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMFBkbnlURGVjdUYtUFhoLVRMa0NoaVdzYlZVZGJaeEZzR3kwblpIUGpQMVlKTHIwc3dDMjNMTENFbDBHV3pmSDAxMHh5VDNIWnM3Wl9ZVkpTdmN3Mk1jT3hmVzd5NElPM0ZxcU1nMzE2bGh5ZUszZ2pzZ0pXUW5GUlhWNWdXNGtRdmJYYUVleHNMQzItQ0M4aFFVZThGNXJCd0MyZ2p0NUtLNkwyNHI4Q0NYbGtFM2c0LWxhcUdYNDBQTzNXOHBmVGFOeWppS0RWSzN4R3dyMERtb2tTX3puN204ZFVMMjladER3ZXdmNnBvQ2kydktLQWtoeG0xZw?oc=5"
     },
     {
-      "title": "The Legend of Zelda: Twilight Princess: Fan-PC-Port macht Fortschritte – Showcase-Video veröffentlicht - Nintendo Connect",
+      "title": "The Legend of Zelda: Twilight Princess: Fan-PC-Port macht Fortschritte – Showcase-Video veröffentlicht - nintendo-connect.de",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-04-07",
-      "age_days": 117,
-      "contribution": 0.1,
+      "age_days": 119,
+      "contribution": 0.09,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTkJvbnFhWk9wc3huVV9SQmNPUU5jQ0d1WFJmaEJRcUFWVFB6eTJ2aHlRQnJHdElqU3N0MUhHNDV6SWR2V3JwZzBJRHc3S01pbjBSSWVGaEt2LUpLV3ppN3Z4NDBQRE5samEzOFFLR0dTWWlUZ1BPOWtfa0hBUWs0N04wTkxlYlJjN1hiWnRGZmcwNlRqRzZWeUZVcXpOZWVFbVJvY0p2ZWR3azIwU1AwTWRaejBPd1lub3liS1hGV19BU1JRaHFnaWZ0MnFONk1Jdm9JZVBzeUE4Q2FKY1hzcQ?oc=5"
     },
@@ -78,7 +78,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-02-03",
-      "age_days": 180,
+      "age_days": 182,
       "contribution": 0.01,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
@@ -90,7 +90,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-01-05",
-      "age_days": 209,
+      "age_days": 211,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
@@ -102,34 +102,22 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-19",
-      "age_days": 348,
+      "age_days": 350,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNCbTNTaXNSdmJpV3V0U0xkVlV6WnJIVTBOejA3SGNoWGNncVZhcUU1R0N5RTlxR05yNGlNOGtRN1VXdldHUlpIcEdDQXc3SHNJOTVCdVdDNlBZem0zNW9xRFVCV3ctSHJnbk1BTzl1OVFhVkxKZmhZaUtRU2Z4WmY0c3pQb1V4bHc5Z3ljUENNRVFGZTRFc00wSzlUbzlnQmc?oc=5"
     },
     {
-      "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - nintendo.com",
+      "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - Nintendo",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2024-04-21",
-      "age_days": 833,
+      "age_days": 835,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV01fZllWdjZ2dGdjb01PazYyYklvcWlfRndha1pPUDZEaTlsdXJqN25lal9zTWxLNUJoeTlYR2hRc0VtdENvTEhTcV9YOXBRR2ZvV3N5R3dpSmFVUXI4X3FBNlVtNXgxWW5kdUFqU01JVDF6eGlqUjhvRnZfR1FoM2lTMnJ4Z2NOM1BVVVlPclFSdjlEUDZJcjIzc0hWb0pmX1hYVEJUTkNYZFEzSHdRUE8zeXBsM3c1OVFBXzFLRTgzWnBJY19EZnFaYlZuNmJLUTRr?oc=5"
-    },
-    {
-      "title": "Twilight Princess für Switch 2? – Jetzt muss Nintendo nur noch liefern! - DailyGame.at",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2025-08-08",
-      "age_days": 359,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LUF9xVldMVEhnNjZzLTRWMTluMnBtSnFyZW80Rlp1S2k1VmV3RVcydlpyTTBaUzMzOXIwbzRZdmxrYXBpNVdyTkVvWFZYNkpFVG5EVVhMd3J3dTNYMXFsUmlCZEJBNGJzOWNrZg?oc=5"
     }
   ]
 }
