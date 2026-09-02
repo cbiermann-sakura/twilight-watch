@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-31T16:37:51Z",
+  "updated_at": "2026-09-02T13:09:50Z",
   "index": 2,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
   "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).",
-  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 7 relevante Einträge. Zu dünn für belastbare Hoffnung.",
+  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 11 relevante Einträge. Zu dünn für belastbare Hoffnung.",
   "thresholds": {
     "play": 30,
     "wait": 60
@@ -18,8 +18,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-03",
-      "age_days": 59,
-      "contribution": 0.66,
+      "age_days": 61,
+      "contribution": 0.62,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
     },
@@ -30,8 +30,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-02",
-      "age_days": 60,
-      "contribution": 0.64,
+      "age_days": 62,
+      "contribution": 0.6,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNlB5Nnh1LTNUemdhbEZDUGhzVW1oYzJnb3lzaW1OMlE4U1ZCWmdEaUVXclFHWV9sN1pZbHZOMXZWMmFoelFWSEV2eXE4TFBTODNENlpNN2Z4MFNKc3hDX3pnTE50X0ZFYTVVWjJmRzRxT2pYMHlTQ1ZZYlZFM081b1IzUlN0Z3VDVEktVTF2QkNvb05EYTVGTkZqa3NNRmd2MWZkME0yT0kxSy10N0RWWWZsbjVnRDFxTzhlSzZpalVnNjZWVkE3aXVLbzlJbzRX?oc=5"
     },
@@ -42,8 +42,8 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-06-30",
-      "age_days": 62,
-      "contribution": 0.6,
+      "age_days": 64,
+      "contribution": 0.56,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
     },
@@ -54,34 +54,22 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-01-05",
-      "age_days": 238,
+      "age_days": 240,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
     },
     {
-      "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - nintendo.com",
+      "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - Nintendo",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2024-04-21",
-      "age_days": 863,
+      "age_days": 864,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV01fZllWdjZ2dGdjb01PazYyYklvcWlfRndha1pPUDZEaTlsdXJqN25lal9zTWxLNUJoeTlYR2hRc0VtdENvTEhTcV9YOXBRR2ZvV3N5R3dpSmFVUXI4X3FBNlVtNXgxWW5kdUFqU01JVDF6eGlqUjhvRnZfR1FoM2lTMnJ4Z2NOM1BVVVlPclFSdjlEUDZJcjIzc0hWb0pmX1hYVEJUTkNYZFEzSHdRUE8zeXBsM3c1OVFBXzFLRTgzWnBJY19EZnFaYlZuNmJLUTRr?oc=5"
-    },
-    {
-      "title": "Zelda-Remaster für Switch 2 – Fans fordern Wind Waker, Twilight Princess zurück - PlayCentral",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2026-02-03",
-      "age_days": 209,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
     },
     {
       "title": "\"Dafür würde ich eine Switch 2 kaufen\": Zelda-Fans hoffen auf Twilight Princess und Wind Waker für Switch 2, nachdem Nintendo auf der Switch 1 nicht geliefert hat - GamePro",
@@ -90,10 +78,70 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-19",
-      "age_days": 377,
+      "age_days": 379,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNCbTNTaXNSdmJpV3V0U0xkVlV6WnJIVTBOejA3SGNoWGNncVZhcUU1R0N5RTlxR05yNGlNOGtRN1VXdldHUlpIcEdDQXc3SHNJOTVCdVdDNlBZem0zNW9xRFVCV3ctSHJnbk1BTzl1OVFhVkxKZmhZaUtRU2Z4WmY0c3pQb1V4bHc5Z3ljUENNRVFGZTRFc00wSzlUbzlnQmc?oc=5"
+    },
+    {
+      "title": "Zelda-Remaster für Switch 2 – Fans fordern Wind Waker, Twilight Princess zurück - PlayCentral",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2026-02-03",
+      "age_days": 211,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
+    },
+    {
+      "title": "Zelda: Wind Waker & Twilight Princess für Switch wieder im Gespräch - DailyGame.at",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2022-05-03",
+      "age_days": 1583,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGcG5lTzhpTVJWUFd4UEZNY3lFYTR4OWJCaFg3UUxMaDljMmk0bGxac2F0eDdnR3p6eEczNENNV2FmWmt2Vy1NTTJIbFNVTW44dmp2bXlBbWl3b2VtTjVpTVdPTEFvQ0xJWUc0QUFNSUhQN2VFQ3Q4?oc=5"
+    },
+    {
+      "title": "Gerücht: Zelda Twilight Princess und Wind Waker erscheinen 2022 als Switch-Bundle - GamePro",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2022-04-29",
+      "age_days": 1587,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUo2VTlZX0I0TGNZanJxVlMzYWFJM2VxYm4yaW00LXViazRJdHAtTlk2bzFMcWlLMWpiNXphOFcyanVtVVVzRE1NUUpUdEl5eTFIMkJZbEFYTFBPYzlIUDg0a0pYejh5emJadXRZRXhEX3RMRS1SQWhnem1UUHg2TTIxSEM5ZjAxYkJXSlRuWl9CWkNTbk16R2pjWFc3b1BLLTh5UWhHVnVfbnJ1UGdN?oc=5"
+    },
+    {
+      "title": "Twilight Princess für Switch 2? – Jetzt muss Nintendo nur noch liefern! - DailyGame.at",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2025-08-08",
+      "age_days": 390,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LUF9xVldMVEhnNjZzLTRWMTluMnBtSnFyZW80Rlp1S2k1VmV3RVcydlpyTTBaUzMzOXIwbzRZdmxrYXBpNVdyTkVvWFZYNkpFVG5EVVhMd3J3dTNYMXFsUmlCZEJBNGJzOWNrZg?oc=5"
+    },
+    {
+      "title": "The Legend of Zelda: Twilight Princess HD – Tantalus würde das Remaster gerne für Nintendo Switch portieren - ntower.de",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2022-05-16",
+      "age_days": 1570,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbHNxZjZFN05GYmVDYkxZNEtjMXZqb2hmOV9fVzhWVmE5MDBWSlB0VDlSMlpBOTVwYkhIMGNNUV9NWV9KSGhFT010cjg0RjZWa3gzUzltbUJqYkllZjNXb1NHS1VqcVItaGVQaEpEZVB4Z3Itd0lEdmd2WHQ2bTlCYXAwWmE1YlNQSUI2a0ZGUjdmaUN5MVJTd0p3S285SGI0Z0Q3dnlwZDlENnNVcUlKV3NnMjhuekFzTWppVFRKZnFhdw?oc=5"
     }
   ]
 }
