@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T16:53:39Z",
-  "index": 0,
+  "updated_at": "2026-11-14T15:28:08Z",
+  "index": 5,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
@@ -12,14 +12,26 @@
   },
   "signals": [
     {
+      "title": "The Legend Of Zelda: Twilight Princess Switch 2 Remake Unites Gamers Following Ocarina Of Time - IMDb",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2026-11-13",
+      "age_days": 1,
+      "contribution": 4.69,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqenY0cFNIZWFwS1p5WW1rZWU4dkxvSUdxczlyRzFNODNYVm5lcUgwOVd1dS1zTFJLd3c0TWwxbk9mYzJETmRqWlI5WDhiV3ZGSHRPMFpIcEhTY2NqY05JTHlfU1NMUQ?oc=5"
+    },
+    {
       "title": "Zelda-Gerücht: Kommt Twilight Princess nach Ocarina of Time auf Switch 2? - PlayCentral",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-03",
-      "age_days": 133,
-      "contribution": 0.06,
+      "age_days": 134,
+      "contribution": 0.05,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
     },
@@ -30,7 +42,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-06-30",
-      "age_days": 136,
+      "age_days": 137,
       "contribution": 0.05,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
@@ -54,34 +66,10 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-19",
-      "age_days": 451,
+      "age_days": 452,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNCbTNTaXNSdmJpV3V0U0xkVlV6WnJIVTBOejA3SGNoWGNncVZhcUU1R0N5RTlxR05yNGlNOGtRN1VXdldHUlpIcEdDQXc3SHNJOTVCdVdDNlBZem0zNW9xRFVCV3ctSHJnbk1BTzl1OVFhVkxKZmhZaUtRU2Z4WmY0c3pQb1V4bHc5Z3ljUENNRVFGZTRFc00wSzlUbzlnQmc?oc=5"
-    },
-    {
-      "title": "Zelda-Klassiker auf Switch 2: Kommen Wind Waker und Twilight Princess zurück? - PlayCentral",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2026-01-05",
-      "age_days": 312,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
-    },
-    {
-      "title": "Neue Gerüchte: Wind Waker HD & Twilight Princess HD für Nintendo Switch - DailyGame.at",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2023-07-19",
-      "age_days": 1213,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWd5em03dE91OS1xZmkzMnpGRFBSb1RtQlVpM0t3UFFDX3k5Tk5FekRFM0xTOFRTeEdPNDFRejJDaWtHTmh0NnJOY3ZSUEt3c1dHcUxDRXhWbzRja214TTZ2dm15ZW11M2RCQXZ3QUM4MHNhWnZacV9HQ2JxcWVIQkUyUWZKbzFnVTJXTXJXNA?oc=5"
     },
     {
       "title": "Zelda-Remaster für Switch 2 – Fans fordern Wind Waker, Twilight Princess zurück - PlayCentral",
@@ -90,10 +78,34 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-02-03",
-      "age_days": 283,
+      "age_days": 284,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
+    },
+    {
+      "title": "Neue Gerüchte: Wind Waker HD & Twilight Princess HD für Nintendo Switch - DailyGame.at",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2023-07-19",
+      "age_days": 1214,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWd5em03dE91OS1xZmkzMnpGRFBSb1RtQlVpM0t3UFFDX3k5Tk5FekRFM0xTOFRTeEdPNDFRejJDaWtHTmh0NnJOY3ZSUEt3c1dHcUxDRXhWbzRja214TTZ2dm15ZW11M2RCQXZ3QUM4MHNhWnZacV9HQ2JxcWVIQkUyUWZKbzFnVTJXTXJXNA?oc=5"
+    },
+    {
+      "title": "Zelda-Klassiker auf Switch 2: Kommen Wind Waker und Twilight Princess zurück? - PlayCentral",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2026-01-05",
+      "age_days": 313,
+      "contribution": 0.0,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
     },
     {
       "title": "Gerücht: Zelda Twilight Princess und Wind Waker erscheinen 2022 als Switch-Bundle - GamePro",
@@ -102,7 +114,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2022-04-29",
-      "age_days": 1659,
+      "age_days": 1660,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUo2VTlZX0I0TGNZanJxVlMzYWFJM2VxYm4yaW00LXViazRJdHAtTlk2bzFMcWlLMWpiNXphOFcyanVtVVVzRE1NUUpUdEl5eTFIMkJZbEFYTFBPYzlIUDg0a0pYejh5emJadXRZRXhEX3RMRS1SQWhnem1UUHg2TTIxSEM5ZjAxYkJXSlRuWl9CWkNTbk16R2pjWFc3b1BLLTh5UWhHVnVfbnJ1UGdN?oc=5"
@@ -114,7 +126,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-08-08",
-      "age_days": 462,
+      "age_days": 463,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LUF9xVldMVEhnNjZzLTRWMTluMnBtSnFyZW80Rlp1S2k1VmV3RVcydlpyTTBaUzMzOXIwbzRZdmxrYXBpNVdyTkVvWFZYNkpFVG5EVVhMd3J3dTNYMXFsUmlCZEJBNGJzOWNrZg?oc=5"
@@ -126,22 +138,10 @@
       "signal_type": "insider_claim",
       "credibility": 0.3,
       "date": "2021-06-17",
-      "age_days": 1975,
+      "age_days": 1976,
       "contribution": 0.0,
       "note": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa3V2YUMyRFZ2UGJ5Vlc1MC1CaTVTTkdPcGhxaEtFRHFZbUpQbW1jOHloM2FhTFlHNnFpRTM1SEhWOE1obWJ4LXJ1V2pfdTlTeEhsQl9xdUYxWDFsaTZKTnN6dzRGU29CS3Nwb3ctMmo3WHdRZTRGUWtXejVYN293aHYtbnJ0OW5rRlNqYUV4elRReE1MTFhmXzdIcmViQkJXT0lfbEZuNkVCbV92ZlktbUlHNEJJUQ?oc=5"
-    },
-    {
-      "title": "The Legend of Zelda: Twilight Princess HD – Tantalus würde das Remaster gerne für Nintendo Switch portieren - ntower",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2022-05-16",
-      "age_days": 1642,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbHNxZjZFN05GYmVDYkxZNEtjMXZqb2hmOV9fVzhWVmE5MDBWSlB0VDlSMlpBOTVwYkhIMGNNUV9NWV9KSGhFT010cjg0RjZWa3gzUzltbUJqYkllZjNXb1NHS1VqcVItaGVQaEpEZVB4Z3Itd0lEdmd2WHQ2bTlCYXAwWmE1YlNQSUI2a0ZGUjdmaUN5MVJTd0p3S285SGI0Z0Q3dnlwZDlENnNVcUlKV3NnMjhuekFzTWppVFRKZnFhdw?oc=5"
     },
     {
       "title": "Zelda: Wind Waker & Twilight Princess für Switch wieder im Gespräch - DailyGame.at",
@@ -150,7 +150,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2022-05-03",
-      "age_days": 1655,
+      "age_days": 1656,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGcG5lTzhpTVJWUFd4UEZNY3lFYTR4OWJCaFg3UUxMaDljMmk0bGxac2F0eDdnR3p6eEczNENNV2FmWmt2Vy1NTTJIbFNVTW44dmp2bXlBbWl3b2VtTjVpTVdPTEFvQ0xJWUc0QUFNSUhQN2VFQ3Q4?oc=5"
@@ -162,7 +162,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2022-09-01",
-      "age_days": 1534,
+      "age_days": 1535,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSE0yT05Ud2dvZDNPMFlqaENnOFFKamY5eFNkaWxHeENJZGdNV3RGS2hlSUVHVDE2WjU5czhHdHZxSm0zVzZzajJVTWpkRFc4UDZmazJnb0JaQThXUHRLZkxuaXA3eGJ3UVVuLVRJZEcyR3VGZEs3TlV2Mm9jOTZGdklpZjg3ZVVnd01QZ042U1hLbURPYjhGUFFzNnRhTm5YV1RNMGRzcnR6THV4YVdQYmtodm4?oc=5"
@@ -174,7 +174,7 @@
       "signal_type": "insider_claim",
       "credibility": 0.3,
       "date": "2022-09-01",
-      "age_days": 1534,
+      "age_days": 1535,
       "contribution": 0.0,
       "note": "Leaker-/Gerüchte-Aussage – mit Vorsicht zu genießen.",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZWR2RERQUkJrLXpVMkRpZEx0Wlg4SEtxZUxYZjZGcjM3aXBRTnk1RzJnSjRtMGt2SW1nVHpaNmtyd09qT3BubGtlQlR6VC1JdVNtMTBweUFLbFhGcUFWUmRGa3o1bHFTb0RnaE9BYXRzWllNNXBNbG5RNG1wTXMzSG1tb1dxVDlMY1ZoYS1uODJEd3FONTNfV3pZOVdZdHJsVkhnRThtdGdjaGw1YnQ0UGZKQmo?oc=5"
