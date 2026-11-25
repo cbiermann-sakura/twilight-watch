@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-24T19:51:50Z",
+  "updated_at": "2026-11-25T18:56:15Z",
   "index": 3,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
   "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).",
-  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 15 relevante Einträge. Zu dünn für belastbare Hoffnung.",
+  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 7 relevante Einträge. Zu dünn für belastbare Hoffnung.",
   "thresholds": {
     "play": 30,
     "wait": 60
@@ -18,22 +18,10 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-11-13",
-      "age_days": 11,
-      "contribution": 3.34,
+      "age_days": 12,
+      "contribution": 3.23,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqenY0cFNIZWFwS1p5WW1rZWU4dkxvSUdxczlyRzFNODNYVm5lcUgwOVd1dS1zTFJLd3c0TWwxbk9mYzJETmRqWlI5WDhiV3ZGSHRPMFpIcEhTY2NqY05JTHlfU1NMUQ?oc=5"
-    },
-    {
-      "title": "The Legend of Zelda: Twilight Princess könnte eine Switch-2-Version bekommen - Instant Gaming News",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2026-06-30",
-      "age_days": 148,
-      "contribution": 0.04,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
     },
     {
       "title": "Zelda-Gerücht: Kommt Twilight Princess nach Ocarina of Time auf Switch 2? - PlayCentral",
@@ -48,28 +36,28 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
     },
     {
+      "title": "The Legend of Zelda: Twilight Princess könnte eine Switch-2-Version bekommen - Instant Gaming News",
+      "source": "Google News",
+      "source_key": "attention",
+      "signal_type": "attention",
+      "credibility": 0.6,
+      "date": "2026-06-30",
+      "age_days": 148,
+      "contribution": 0.03,
+      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
+    },
+    {
       "title": "Jetzt im Handel und im Nintendo eShop: The Legend of Zelda: Twilight Princess HD - Nintendo",
       "source": "Google News",
       "source_key": "attention",
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2024-04-21",
-      "age_days": 948,
+      "age_days": 949,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV01fZllWdjZ2dGdjb01PazYyYklvcWlfRndha1pPUDZEaTlsdXJqN25lal9zTWxLNUJoeTlYR2hRc0VtdENvTEhTcV9YOXBRR2ZvV3N5R3dpSmFVUXI4X3FBNlVtNXgxWW5kdUFqU01JVDF6eGlqUjhvRnZfR1FoM2lTMnJ4Z2NOM1BVVVlPclFSdjlEUDZJcjIzc0hWb0pmX1hYVEJUTkNYZFEzSHdRUE8zeXBsM3c1OVFBXzFLRTgzWnBJY19EZnFaYlZuNmJLUTRr?oc=5"
-    },
-    {
-      "title": "\"Dafür würde ich eine Switch 2 kaufen\": Zelda-Fans hoffen auf Twilight Princess und Wind Waker für Switch 2, nachdem Nintendo auf der Switch 1 nicht geliefert hat - GamePro",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2025-08-19",
-      "age_days": 463,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNCbTNTaXNSdmJpV3V0U0xkVlV6WnJIVTBOejA3SGNoWGNncVZhcUU1R0N5RTlxR05yNGlNOGtRN1VXdldHUlpIcEdDQXc3SHNJOTVCdVdDNlBZem0zNW9xRFVCV3ctSHJnbk1BTzl1OVFhVkxKZmhZaUtRU2Z4WmY0c3pQb1V4bHc5Z3ljUENNRVFGZTRFc00wSzlUbzlnQmc?oc=5"
     },
     {
       "title": "Zelda-Remaster für Switch 2 – Fans fordern Wind Waker, Twilight Princess zurück - PlayCentral",
@@ -78,34 +66,10 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-02-03",
-      "age_days": 294,
+      "age_days": 295,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
-    },
-    {
-      "title": "Twilight Princess HD: Entwickler arbeitet nicht an einem Switch-Port - n-switch-on.de",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2022-05-14",
-      "age_days": 1656,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9scEVfaTVHN1lzTDVINzRnU2R1dUlaTXNNcWhXV3F6WU9FR3VJbW1DQUxkRmpPZC1RNWZKNlpLcHZiSkFLNWl3cDlFR0FROWxHT2Z1NnR2WTI1aE5WXzNfbG1VSS0xTmNDaS1mTnFCdEEzdVU4bm5YUA?oc=5"
-    },
-    {
-      "title": "Neue Gerüchte: Wind Waker HD & Twilight Princess HD für Nintendo Switch - DailyGame.at",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2023-07-19",
-      "age_days": 1225,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMWd5em03dE91OS1xZmkzMnpGRFBSb1RtQlVpM0t3UFFDX3k5Tk5FekRFM0xTOFRTeEdPNDFRejJDaWtHTmh0NnJOY3ZSUEt3c1dHcUxDRXhWbzRja214TTZ2dm15ZW11M2RCQXZ3QUM4MHNhWnZacV9HQ2JxcWVIQkUyUWZKbzFnVTJXTXJXNA?oc=5"
     },
     {
       "title": "Zelda-Klassiker auf Switch 2: Kommen Wind Waker und Twilight Princess zurück? - PlayCentral",
@@ -114,34 +78,10 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-01-05",
-      "age_days": 323,
+      "age_days": 324,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
-    },
-    {
-      "title": "Gerücht: Zelda Twilight Princess und Wind Waker erscheinen 2022 als Switch-Bundle - GamePro",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2022-04-29",
-      "age_days": 1671,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUo2VTlZX0I0TGNZanJxVlMzYWFJM2VxYm4yaW00LXViazRJdHAtTlk2bzFMcWlLMWpiNXphOFcyanVtVVVzRE1NUUpUdEl5eTFIMkJZbEFYTFBPYzlIUDg0a0pYejh5emJadXRZRXhEX3RMRS1SQWhnem1UUHg2TTIxSEM5ZjAxYkJXSlRuWl9CWkNTbk16R2pjWFc3b1BLLTh5UWhHVnVfbnJ1UGdN?oc=5"
-    },
-    {
-      "title": "Twilight Princess für Switch 2? – Jetzt muss Nintendo nur noch liefern! - DailyGame.at",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2025-08-08",
-      "age_days": 474,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LUF9xVldMVEhnNjZzLTRWMTluMnBtSnFyZW80Rlp1S2k1VmV3RVcydlpyTTBaUzMzOXIwbzRZdmxrYXBpNVdyTkVvWFZYNkpFVG5EVVhMd3J3dTNYMXFsUmlCZEJBNGJzOWNrZg?oc=5"
     },
     {
       "title": "The Legend of Zelda: Twilight Princess - Fans hoffen auf Port - 4P.de",
@@ -150,46 +90,10 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-12-17",
-      "age_days": 342,
+      "age_days": 343,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUmRmNC01cnJ3SlVraExiQi1COGxkWEtTQkdMeFJYVl9OcFJrT1dkSHJpNjRaUEFSZVRYN0tnMXR6eld5UW5WSEpiVUxoLUZaenhTaG91T2szSEVsUDI2YjFuVEF1QkdUbW5JWW9uUVp6VHYxb1FyNmZxVVNoTHFmQ1hucklBVl9ycFBOLWZfYmVZcnVfeml5dXRJeExQNTBMOWVJYjFZdmdxZw?oc=5"
-    },
-    {
-      "title": "Nintendo Switch: Neue Direct mit Wind Waker und Twilight Princess soll diesen Monat kommen - Eurogamer.de",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2022-09-01",
-      "age_days": 1546,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSE0yT05Ud2dvZDNPMFlqaENnOFFKamY5eFNkaWxHeENJZGdNV3RGS2hlSUVHVDE2WjU5czhHdHZxSm0zVzZzajJVTWpkRFc4UDZmazJnb0JaQThXUHRLZkxuaXA3eGJ3UVVuLVRJZEcyR3VGZEs3TlV2Mm9jOTZGdklpZjg3ZVVnd01QZ042U1hLbURPYjhGUFFzNnRhTm5YV1RNMGRzcnR6THV4YVdQYmtodm4?oc=5"
-    },
-    {
-      "title": "The Legend of Zelda: Twilight Princess HD überrascht mit neuem Gameplay - Nintendo",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2016-02-04",
-      "age_days": 3946,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYndBd0VCVGZMOHgzZVJBTjNnZ1NkVnBLR2NTV182WWE1a2Z6UWUxMlV2SHppVG9wbUNWZVR3c1NaUW9uUW9CR25ULXUyZ0VxSGRxN2tXRUlfMGZmdHBzOVZCakhSM3A3Wi00Z2VoZUl4MHkzamkzdmJYdlYwRWM4VkJSUnFsS3pMcm9nM3R4bWJXOGlWMFJ0c0d2S0Y4NHVmV0hkZWUwcG1yRUlTZmw4emdjREFuT2pVQlpKQzNSeS14YXo4NFFQWEhJbTA?oc=5"
-    },
-    {
-      "title": "Erscheinen The Legend of Zelda: Twilight Princess und Wind Waker HD auch für Switch? - Nintendo-Online.de",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2021-02-21",
-      "age_days": 2102,
-      "contribution": 0.0,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObkg1bnVBd3hpVGVyQS1hV3dIcjBZbnhRRUxaUmtibk5BSDJIQ0dDenJSRl92enluNUhLSkFQYmtnQ2FUaDNQM29wUnotZTlmcUUzV0Fvc0RGM0psTFVCdmxtSUNyZGFlZEQzQ29jMngxbUhLS3VXamFpR044Y2JJYUNBQW9SMFFxUWtNNlpObTdxU0hUM2VBelJTbjRxRUk2WWhOVG5NMDFfS0MyMWZwM1V1eWdST2h1bHZRb0NVR1c?oc=5"
     }
   ]
 }
