@@ -1,28 +1,16 @@
 {
-  "updated_at": "2026-11-25T18:56:15Z",
-  "index": 3,
+  "updated_at": "2026-11-26T18:46:29Z",
+  "index": 0,
   "verdict": "play",
   "headline": "Spiel jetzt.",
   "recommendation": "Kein belastbares Signal – spiel die alte Version.",
   "play_suggestion": "Beste jetzige Version: Twilight Princess HD (Wii U).",
-  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 7 relevante Einträge. Zu dünn für belastbare Hoffnung.",
+  "reasoning": "Stärkstes Signal heute: Medienwelle (Google News). Insgesamt 6 relevante Einträge. Zu dünn für belastbare Hoffnung.",
   "thresholds": {
     "play": 30,
     "wait": 60
   },
   "signals": [
-    {
-      "title": "The Legend Of Zelda: Twilight Princess Switch 2 Remake Unites Gamers Following Ocarina Of Time - IMDb",
-      "source": "Google News",
-      "source_key": "attention",
-      "signal_type": "attention",
-      "credibility": 0.6,
-      "date": "2026-11-13",
-      "age_days": 12,
-      "contribution": 3.23,
-      "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqenY0cFNIZWFwS1p5WW1rZWU4dkxvSUdxczlyRzFNODNYVm5lcUgwOVd1dS1zTFJLd3c0TWwxbk9mYzJETmRqWlI5WDhiV3ZGSHRPMFpIcEhTY2NqY05JTHlfU1NMUQ?oc=5"
-    },
     {
       "title": "Zelda-Gerücht: Kommt Twilight Princess nach Ocarina of Time auf Switch 2? - PlayCentral",
       "source": "Google News",
@@ -30,7 +18,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-07-03",
-      "age_days": 145,
+      "age_days": 146,
       "contribution": 0.04,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR3VxNWQtRmRzeWRSLVpzVWQxenBNeUFVeUduZ3FhaDVTMlNRLWdKNFdPaEF4UkNqeld0bGxvaWF2d01vcXNmRzdHUWstR0cxYWY5MVE3amxqel85ODRCLTk2ZWVraTB4SHBBRnZJWVVQZXVMLTBPQjFDTHdfaHVKNHpPZlY1OE9reWFTdVBnZEVTSHM0dzZR?oc=5"
@@ -42,7 +30,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-06-30",
-      "age_days": 148,
+      "age_days": 149,
       "contribution": 0.03,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWNEc29vakJPd0FBWE5NVVNhd0pxbUFzdTJ6a1RHc3hrMXl5cEdtSUEtaVpheEhCNl92LTVQUno1emMwZ0M0bTB1SDNlZ2twY0dKcV91MXJaSm5ZR3lHYVgzcnBoYlY0ZHlTQnZEVTd2U2plX0JYa2VkUUxyU1pSazFYRHo0QWp4YldmTzVlanNMSHpHbGhiRUR5UTFsRGdrVldPSVB0VkE5bjh5Y3pfblozZ3E5MlVnUzB5bm83U3o3QQ?oc=5"
@@ -54,7 +42,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2024-04-21",
-      "age_days": 949,
+      "age_days": 950,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV01fZllWdjZ2dGdjb01PazYyYklvcWlfRndha1pPUDZEaTlsdXJqN25lal9zTWxLNUJoeTlYR2hRc0VtdENvTEhTcV9YOXBRR2ZvV3N5R3dpSmFVUXI4X3FBNlVtNXgxWW5kdUFqU01JVDF6eGlqUjhvRnZfR1FoM2lTMnJ4Z2NOM1BVVVlPclFSdjlEUDZJcjIzc0hWb0pmX1hYVEJUTkNYZFEzSHdRUE8zeXBsM3c1OVFBXzFLRTgzWnBJY19EZnFaYlZuNmJLUTRr?oc=5"
@@ -66,7 +54,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-02-03",
-      "age_days": 295,
+      "age_days": 296,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlg5cUpvTENMRWg1TmU4dlhWQUg1WDBJX01lSm9RZ0hCVkFXM1lnSHBsLWs1MUFQcm05ZHZIX0RSUkk4V1I1RzV4NzEzV1ZiMDV0bEw3Qmt2My1vNk5SQWNXRlNPRU1FTGFXSnktSW91R3BodHJrMXFvUEdYdzhJQS1oLVNEZGxKR0tpcDA1S0IyaGdqOUxnWVRVREk1WUV2TDJrQ0RSRTZYQQ?oc=5"
@@ -78,7 +66,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2026-01-05",
-      "age_days": 324,
+      "age_days": 325,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFFIVFFqdkU2UGlxald1aGlucjFlemNSQlc5RUt4RDI4eW9LR3lERGQwT3lpMGx5MXZYdlluakxKUVpZUG1aTVJDNGxsdzhzenJfaTQ0X1JKYjZLU3d0UERuZUVkRXdmNW1WX3VveFFtSGFfRWpPYmdEV0JNcmZwaFpTSUVMUkh6YVJSalNUTmJTbm96NmRYRUxJRHE4eGJxeS1VVmFIZw?oc=5"
@@ -90,7 +78,7 @@
       "signal_type": "attention",
       "credibility": 0.6,
       "date": "2025-12-17",
-      "age_days": 343,
+      "age_days": 344,
       "contribution": 0.0,
       "note": "Medien greifen das Thema auf, ohne neue Primärquelle.",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUmRmNC01cnJ3SlVraExiQi1COGxkWEtTQkdMeFJYVl9OcFJrT1dkSHJpNjRaUEFSZVRYN0tnMXR6eld5UW5WSEpiVUxoLUZaenhTaG91T2szSEVsUDI2YjFuVEF1QkdUbW5JWW9uUVp6VHYxb1FyNmZxVVNoTHFmQ1hucklBVl9ycFBOLWZfYmVZcnVfeml5dXRJeExQNTBMOWVJYjFZdmdxZw?oc=5"
